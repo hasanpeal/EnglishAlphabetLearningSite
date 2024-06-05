@@ -1,113 +1,104 @@
-.item{
-    display: grid;
-
+@media (max-width: 1000px){
+    .container{
+        
+    }
 }
 
-img{
-    width: 100%;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 25px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
 }
 
-.A{
-
+html{
+    background-color: #F1E5D1;
 }
 
-.B{
-    
+img {
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
 }
 
-.C{
-    
+.A {
 }
 
-.D{
-    
+.B {
 }
 
-.E{
-    
+.C {
 }
 
-.F{
-    
+.D {
 }
 
-.G{
-    
+.E {
 }
 
-.H{
-    
+.F {
 }
 
-.I{
-    
+.G {
 }
 
-.J{
-    
+.H {
 }
 
-.K{
-    
+.I {
 }
 
-.L{
-    
+.J {
 }
 
-.M{
-    
+.K {
 }
 
-.N{
-    
+.L {
 }
 
-.O{
-    
+.M {
 }
 
-.P{
-    
+.N {
 }
 
-.Q{
-    
+.O {
 }
 
-.R{
-    
+.P {
 }
 
-.S{
-    
+.Q {
 }
 
-.T{
-    
+.R {
 }
 
-.U{
-    
+.S {
 }
 
-.V{
-    
+.T {
 }
 
-.W{
-    
+.U {
 }
 
-.X{
-    
+.V {
 }
 
-.Y{
-    
+.W {
 }
 
-.Z{
-    
+.X {
 }
 
+.Y {
+}
+
+.Z {
+}
