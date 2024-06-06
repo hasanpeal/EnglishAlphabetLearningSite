@@ -1,7 +1,9 @@
-@media (max-width: 1000px){
-    .container{
-        
-    }
+h4, footer{
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding: 0px;
 }
 
 .container {
@@ -9,10 +11,10 @@
   flex-wrap: wrap;
   flex: 1;
   gap: 25px;
-  height: 100vh;
+  height: vh;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
+  margin-bottom: 50px;
 }
 
 html{
@@ -23,6 +25,10 @@ img {
     border: 3px solid black;
     height: 200px;
     width: 200px;
+}
+
+img:hover{
+    transform: scale(1.1);
 }
 
 .A {
